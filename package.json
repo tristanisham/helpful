@@ -1,0 +1,28 @@
+{
+  "name": "helpful.onl",
+  "version": "1.0.50",
+  "scripts": {
+    "dev": "bun run --watch src/index.tsx",
+    "style": "bun x tailwindcss -i ./tailwind.css -o ./public/style.css --watch --minify"
+  },
+  "dependencies": {
+    "@bogeychan/elysia-logger": "^0.0.4",
+    "@elysiajs/html": "^0.6.0",
+    "@elysiajs/static": "^0.6.0",
+    "@tailwindcss/typography": "^0.5.9",
+    "daisyui": "^3.6.4",
+    "elysia": "latest",
+    "front-matter": "^4.0.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-dom/server": "react-dom/server"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.21",
+    "@types/react-dom": "^18.2.7",
+    "bun-types": "latest",
+    "tailwindcss": "^3.3.3"
+  },
+  "module": "src/index.js",
+  "jsx": "react"
+}
