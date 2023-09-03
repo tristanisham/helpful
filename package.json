@@ -7,12 +7,15 @@
   },
   "dependencies": {
     "@bogeychan/elysia-logger": "^0.0.4",
+    "@elysiajs/cookie": "^0.6.1",
     "@elysiajs/html": "^0.6.0",
     "@elysiajs/static": "^0.6.0",
+    "@prisma/client": "5.2.0",
     "@tailwindcss/typography": "^0.5.9",
     "daisyui": "^3.6.4",
     "elysia": "latest",
     "front-matter": "^4.0.2",
+    "picocolors": "^1.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-dom/server": "react-dom/server"
@@ -21,8 +24,13 @@
     "@types/react": "^18.2.21",
     "@types/react-dom": "^18.2.7",
     "bun-types": "latest",
+    "prisma": "^5.2.0",
     "tailwindcss": "^3.3.3"
   },
   "module": "src/index.js",
-  "jsx": "react"
+  "jsx": "react",
+  "type": "module",
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
 }
